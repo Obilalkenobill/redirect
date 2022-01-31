@@ -1,0 +1,28 @@
+.glyphicon-ok:hover{
+    cursor : pointer;
+  }
+
+  .glyphicon-ok{
+    background:linear-gradient(gold,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  .blancko{
+    cursor : pointer;
+    background:linear-gradient(gold,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 1.7rem;
+    padding: 25%;
+    text-align: center;
+}
+body{
+  min-height: 100vh;
+  min-width: 100vw;
+  background:linear-gradient(black,white);
+  repeat:no-repeat;
+}
